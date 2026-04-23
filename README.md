@@ -18,7 +18,7 @@ This is a fork of the original Kflix project, rebuilt and improved with a Larave
 
 ### 2. Containerized Deployment (Docker)
 - **Multi-stage Dockerfile** using composer:2 for dependency resolution and PHP 8.2 Apache for runtime
-- **Docker Compose** with web + MySQL services (port mapping 8181:80)
+- **Docker Compose** with web + MySQL services 
 - Bind mount for live code reload during development
 - Fixed common Docker pitfalls (brace expansion, DNS resolution, bootstrap/cache permissions)
 
